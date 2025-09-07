@@ -2,7 +2,7 @@
 <suite name="HCA Automation Suite" verbose="1" parallel="tests" thread-count="2">
 
     <listeners>
-        <listener class-name="com.org.automation.utils.AnnotationTransformer"/>
+        <listener class-name="utils.AnnotationTransformer"/>
     </listeners>
 
     <test name="Regression Suite" group-by-instances="true">

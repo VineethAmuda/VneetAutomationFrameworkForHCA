@@ -75,4 +75,5 @@ Pending Steps
 Add CI/CD integration (Jenkins / GitHub Actions)
 Add Allure Reports for better visualization
 Add environment configs (dev, qa, staging)
+Database Connectivity(JDBC&SQL)
 

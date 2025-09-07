@@ -15,14 +15,14 @@
 
 	<dependencies>
 
-		<!-- ✅ Selenium WebDriver -->
+		<!--  Selenium WebDriver -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>4.23.0</version>
 		</dependency>
 
-		<!-- ✅ Cucumber -->
+		<!--  Cucumber -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>
@@ -48,7 +48,7 @@
 			    <scope>test</scope>
 			</dependency>
 
-		<!-- ✅ RestAssured -->
+		<!--  RestAssured -->
 		<dependency>
 			<groupId>io.rest-assured</groupId>
 			<artifactId>rest-assured</artifactId>
@@ -66,28 +66,28 @@
 			<version>5.5.0</version>
 		</dependency>
 
-		<!-- ✅ Jackson -->
+		<!--  Jackson -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 			<version>2.18.1</version>
 		</dependency>
 
-		<!-- ✅ Apache Commons -->
+		<!--  Apache Commons -->
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
 			<version>3.14.0</version>
 		</dependency>
 
-		<!-- ✅ Extent Reports -->
+		<!--  Extent Reports -->
 		<dependency>
 			<groupId>tech.grasshopper</groupId>
 			<artifactId>extentreports-cucumber7-adapter</artifactId>
 			<version>1.14.0</version>
 		</dependency>
 
-		<!-- ✅ Logging -->
+		<!--  Logging -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
@@ -104,7 +104,7 @@
 			<version>5.9.2</version> <!-- latest stable as of now -->
 		</dependency>
 
-		<!-- ✅ RestAssured -->
+		<!-- RestAssured -->
 		<dependency>
 			<groupId>io.rest-assured</groupId>
 			<artifactId>rest-assured</artifactId>
@@ -112,7 +112,7 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- ✅ JSON handling -->
+		<!--  JSON handling -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>

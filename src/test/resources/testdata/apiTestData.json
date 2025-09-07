@@ -1,0 +1,13 @@
+{
+  "createUser": {
+    "name": "Vineeth",
+    "job": "QA Engineer"
+  },
+  "updateUser": {
+    "name": "Aditya",
+    "job": "SDET"
+  },
+  "deleteUser": {
+    "userId": 2
+  }
+}

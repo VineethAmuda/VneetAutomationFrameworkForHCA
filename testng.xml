@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="HCA Automation Suite" verbose="1" parallel="tests" thread-count="2">
+
+    <listeners>
+        <listener class-name="com.org.automation.utils.AnnotationTransformer"/>
+    </listeners>
+
+    <test name="Regression Suite" group-by-instances="true">
+        <groups>
+            <run>
+                <include name="Regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.org.automation.runner.TestRunner"/>
+        </classes>
+    </test>
+
+    <test name="Smoke Suite">
+        <groups>
+            <run>
+                <include name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.org.automation.runner.TestRunner"/>
+        </classes>
+    </test>
+
+    <test name="Full Suite">
+        <classes>
+            <class name="com.org.automation.runner.TestRunner"/>
+        </classes>
+    </test>
+
+</suite>
